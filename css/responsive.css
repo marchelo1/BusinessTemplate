@@ -1,0 +1,171 @@
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width:992px) {
+  #menu {
+    display: none;
+  }
+  
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    background: transparent;
+    z-index: 1000;
+    right: 0;
+    margin-top: 110px;
+  }
+  
+  header {
+    margin-top: 110px;
+    background-color: #547dd1;
+  }
+
+  .slider {
+    margin-top: -110px;
+  }
+
+  .slicknav_btn {
+    margin: 35px 30px 0px 0px;
+    background: orange;
+  }
+.slicknav_nav {
+  background: #547dd1;
+  width: 200px;
+}
+
+.slicknav_nav li {
+  margin: 0;
+  padding: 0;
+  height: 3em;
+  line-height: 3em;
+  width: 200px;
+border-bottom: 1px solid #2e4155;
+border-top: 1px solid #3d5267;
+text-align: center;
+
+}
+
+.slicknav_nav li a {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  transition: all 0.4s ease-in;
+}
+
+.slicknav_nav li a {
+  color:#ffa500;
+  text-decoration: none;
+  background: none;
+
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .feature-mockup {
+    bottom: -100px;
+    position: relative;
+  }
+  .contact-left {
+    position: absolute;
+  }
+}
+
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .single-feature {
+    position: center;
+    width: 453px;
+  }
+
+  .logo img {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .slider,
+  .slider ul,
+  .slider ul li {
+    height: 728px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .slider h2 {
+    font-weight: bold;
+    margin-top: 270px;
+  }
+  
+  .slider span {
+    color: orange;
+  }
+  
+  .slider a {
+    padding: 10px 40px;
+    margin-right: 20px;
+  }
+  
+  .slider a.btn-half {
+    background-color: rgb(3, 36, 107);
+    color: white;
+  }
+  
+  .slider a.btn-half:hover {
+    opacity: 0.8;
+    transition: 0.5s ease-in;
+  }
+  
+  .slider a.btn-full {
+    background-color: orange;
+    color: white;
+  }
+  
+  .slider a.btn-full:hover {
+    opacity: 0.8;
+    transition: 0.5s ease-in;
+  }
+  
+  .feature-mockup {
+    bottom: -100px;
+    position: relative;
+  }
+
+  .more-feature-area img {
+    margin-left: 0px;
+  }
+
+  .team-member, .team-member .team-img {
+    left:0px;
+  }
+
+  .team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  #button {
+     display: none !important;
+  }
+}
+
+
